@@ -1,1 +1,1 @@
-intra.42.fr
+## Simply run ./day1.sh to regenerate everything
