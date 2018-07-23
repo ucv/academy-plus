@@ -1,6 +1,6 @@
 clear
-cd ~/work/academy-plus/
-sudo rm -rf day1
+# cd ~/work/academy-plus/
+sudo rm -rf d00
 #sudo rm -rf /tmp/academy_plus
 
 #mkdir /tmp/academy_plus
@@ -8,8 +8,8 @@ sudo rm -rf day1
 #mkdir /tmp/academy_plus/temp_simlink_2
 
 
-mkdir day1
-cd day1
+mkdir d00
+cd d00
 #Exercitiul ex01
 mkdir ex01
 cd ex01
