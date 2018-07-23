@@ -1,11 +1,11 @@
 clear
 cd ~/work/academy-plus/
 sudo rm -rf day1
-sudo rm -rf /tmp/academy_plus
+#sudo rm -rf /tmp/academy_plus
 
-mkdir /tmp/academy_plus
-mkdir /tmp/academy_plus/temp_simlink_1
-mkdir /tmp/academy_plus/temp_simlink_2
+#mkdir /tmp/academy_plus
+#mkdir /tmp/academy_plus/temp_simlink_1
+#mkdir /tmp/academy_plus/temp_simlink_2
 
 
 mkdir day1
