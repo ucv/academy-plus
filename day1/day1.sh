@@ -1,6 +1,6 @@
 clear
 # cd ~/work/academy-plus/
-sudo rm -rf d00
+rm -rf d00
 #sudo rm -rf /tmp/academy_plus
 
 #mkdir /tmp/academy_plus
@@ -24,23 +24,27 @@ printf "ex01 done\n"
 mkdir ex02
 cd ex02
 mkdir test0
-chmod 715 test0
+touch -t 201806012047 test0 
 printf "aaaa" > test1
+touch -t 201806012046 test1
 mkdir test2
-chmod 514 test2
+touch -t 201806012245 test2
 printf "a" > test3
-chmod 404 test3
+touch -t 201806012344 test3
 printf "aa" > test4
-chmod 641 test4
+touch -t 201806012344 test4
 printf "a" > test5
-chmod 404 test5
+ln test3 test5
 ln -s test0 test6
 
-# al 2-lea parametru
-#
-# bag pl in el
+chmod 715 test0
+chmod 514 test2
+chmod 404 test3
+chmod 641 test4
+chmod 404 test5
 
-touch -t 201806012047 *
+touch -a -m -h -t 201806012220 test6
+
 ls -l
 tar -cf exo2.tar *
 cd ../
