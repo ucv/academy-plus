@@ -1,0 +1,5 @@
+Credentials cache: API:31881
+        Principal: ucristia@42.FR
+
+  Issued                Expires               Principal
+Jul 24 19:31:38 2018  Jul 31 19:31:29 2018  krbtgt/42.FR@42.FR

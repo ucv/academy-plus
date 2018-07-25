@@ -1,0 +1,1 @@
+ldapmodify -x -D 'uid=ucristia,ou=2018_bucharest,ou=2018,ou=bucharest,ou=people,dc=42,dc=fr' -f mobile-phone.ldif -w academy549991
